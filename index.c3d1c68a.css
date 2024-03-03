@@ -7,9 +7,39 @@
 @font-face {
   font-family: "Lovelo-black";
   src: url("Lovelo-Black.woff2") format("truetype");
-  /* 可选：添加其他字体样式 */
   font-weight: normal;
   font-style: normal;
+}
+body {
+  background-image: url("img/ARIA-back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+body {
+  background-image: url("img/ARIA-back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0); /* 设置背景色，而不是继承背景图片 */
+  /* 添加以下两行代码 */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  z-index: -1; /* 确保伪元素在内容之后 */
 }
 *,
 :before,
