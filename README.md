@@ -4,7 +4,9 @@
 
 这是我的 Github
 
-- 🌱 正在学习 C# 和 操作系统
+[个人主页](https://lumosion.tech)
+
+- 🌱 正在学习 Go 和 PostgreSQL
 - 💬 XCPC
 - 😄 通过 Azure 进行探索
-- ⚡ 考研
+- 😭 即将上班
