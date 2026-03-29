@@ -6,7 +6,6 @@
 
 [个人主页](https://www.lumosion.me)
 
-- 🌱 正在学习 Go 和 PostgreSQL
+- 🌱 正在学习
 - 💬 XCPC
 - 😄 通过 Azure 进行探索
-- 😭 即将上班
