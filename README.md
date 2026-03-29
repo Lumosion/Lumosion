@@ -4,7 +4,7 @@
 
 这是我的 Github
 
-[个人主页](https://lumosion.tech)
+[个人主页](https://www.lumosion.me)
 
 - 🌱 正在学习 Go 和 PostgreSQL
 - 💬 XCPC
